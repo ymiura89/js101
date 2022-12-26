@@ -18,7 +18,7 @@ Explicit Rules
 function greetings(nameArray, titleOccupation) {
   let properName = nameArray.join(' ');
   let occupation = Object.values(titleOccupation);
-  return `Hello, ${properName}! Nice to have a ${occupation.join(' ').toLowerCase()} around.` 
+  return `Hello, ${properName}! Nice to have a ${occupation.join(' ')} around.` 
 }
 
 console.log(
